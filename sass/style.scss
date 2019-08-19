@@ -1,0 +1,86 @@
+/* Variables */
+
+$color-dark: #000000;
+$color-light: #fff;
+
+$font-header: "Crimson Text", serif;
+$font-text: "Source Sans Pro", sans-serif;
+
+/* Global */
+
+body {
+  font-family: $font-text;
+  color: #535c68;
+  font-weight: 300;
+}
+
+/* Navigation */
+
+.btn-group i {
+  margin-right: 3px;
+}
+
+/* Slider */
+
+.carousel-inner .carousel-item {
+  height: 100vh;
+  img {
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.carousel-caption {
+  right: auto;
+  bottom: auto;
+  padding-top: 0;
+  padding-bottom: 0;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  h4 {
+    font-size: 18px;
+    letter-spacing: 2px;
+  }
+  h3 {
+    font-family: $font-header;
+    font-size: 90px;
+    text-shadow: 2px 4px 10px $color-dark;
+  }
+}
+
+/* Products */
+
+.card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+/* Ideas */
+
+.ideas h5 {
+  font-family: $font-header;
+  font-size: 60px;
+  color: $color-light;
+  text-shadow: 2px 4px 10px $color-dark;
+}
+
+/* Contact */
+
+.contact {
+  background: #eff2f5;
+  .card {
+    background: inherit;
+    border: none;
+  }
+}
+
+.social-links {
+  list-style-type: none;
+}
+
+.social-links li i {
+  color: $color-dark;
+  font-size: 16px;
+}
